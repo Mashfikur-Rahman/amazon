@@ -40,12 +40,14 @@ const Cart = (props) => {
     //  Cart logic
     return (
         <div>
-            <h3>Order Summary</h3>
+            <h>Order Summary</h>
             <p>Itmes Ordered : {cart.length}</p>
             <p>Product Price : {formateNumber(total)}</p>
             <p><small>Shipping cost : $ {shipping}</small></p>
             <p><small>Total Vat + Tax : $ {tax}</small></p>
             <p>Total Price : $ {grandTotal}</p>
+            
+            
             
         </div>
     );
